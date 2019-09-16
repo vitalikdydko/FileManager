@@ -1,0 +1,8 @@
+﻿export const GET_FILES_SUCCESS = 'GET_FILES_SUCCESS';
+export const GET_FILES_ERROR = 'GET_FILES_ERROR';
+export const POST_FILE_SUCCESS = 'POST_FILE_SUCCESS';
+export const POST_FILE_ERROR = 'POST_FILE_ERROR';
+export const CHANGE_FILE_NAME = 'CHANGE_FILE_NAME';
+export const IS_EDIT_FILE = 'IS_EDIT_FILE';
+export const EDIT_FILE = 'EDIT_FILE';
+

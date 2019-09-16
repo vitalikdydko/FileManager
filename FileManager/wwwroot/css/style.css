@@ -1,0 +1,29 @@
+﻿
+.link{
+    cursor: pointer;
+}
+
+td{
+    padding:10px;
+}
+
+.folder{
+    display:inline-flex;
+    width: 100%;
+}
+
+.formStyle {
+    overflow: hidden;
+    float:right;
+}
+
+.box {
+    white-space: nowrap
+}
+
+    .box div {
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+

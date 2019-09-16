@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="text/javascript">
+        constants = {
+            folder: '@Url.RouteUrl("DefaultApi", new {controller = "Folder", action = "folders" })',
+            file: '@Url.RouteUrl("DefaultApi", new {controller = "File", action = "files" })'
+        }
+    </script>
+    <link href="~/css/style.css" rel="stylesheet" media="all">
+    <title>File manager</title>
+</head>
+<body>
+    <div id="content">
+    </div>
+    <script type="text/javascript" src="@Url.Content("~/assets/bundle.js")"></script>
+</body>
+</html>
+
